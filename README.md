@@ -66,7 +66,7 @@ A dataset is defined as a dictionary of multiple computational sequences. Entire
 The first step is to download the SDK:
 
 ```bash
-git clone git@github.com:A2Zadeh/CMU-MultimodalSDK.git
+git clone https://github.com/Deaf-Sense/CMU-MultimodalSDK.git
 ```
 
 Then add the cloned folder to your `$PYTHONPATH` environment variable. For example, you can do so by adding the following line (replace the path with your actual path of course) to your `~/.bashrc` file. 
