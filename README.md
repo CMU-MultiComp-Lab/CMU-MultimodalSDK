@@ -61,7 +61,7 @@ Each computational sequence is a heirarchical data strcuture which contains two 
 A dataset is defined as a dictionary of multiple computational sequences. Entire datasets can be shared using recipes as opposed to old-fashioned dropbox links or ftp servers. Computational sequences are downloaded one by one and their individual integrity is checked to make sure they are the ones users wanted to share. Users can register their extracted features with our trust server to use this feature. They can also request storage of their features on our servers 
 
 
-## Installation
+## 🚀 Installation
 
 The first step is to download the SDK:
 
@@ -69,17 +69,21 @@ The first step is to download the SDK:
 git clone git@github.com:A2Zadeh/CMU-MultimodalSDK.git
 ```
 
-Then add the cloned folder to your `$PYTHONPATH` environment variable. For example, you can do so by adding the following line (replace the path with your actual path of course) to your `~/.bashrc` file. 
+Next, you need to install the SDK on your python enviroment.
 
 ```bash
-export PYTHONPATH="/path/to/cloned/directory/CMU-MultimodalSDK:$PYTHONPATH"
+cd CMU-MultimodalSDK
+pip install .
 ```
+This will install the mmsdk module and all the required dependencies on your python enviroment and you can start using it.
 
-Make sure the following python packages are installed: h5py, validators, tqdm. The setup.py will install them for you. You can also manually install them using pip by:
+You can also install the SDK in development mode:
 
 ```bash
-pip install h5py validators tqdm numpy argparse requests
+cd CMU-MultimodalSDK
+pip install -e .
 ```
+
 
 ## Usage
 
