@@ -9,9 +9,8 @@ with open(requirements_filepath, "r") as f:
 
 setup(
     name="mmsdk",  # Replace with your package's name
-    version="1.2.0",  # Your package's version
-    author="Your Name",  # Your name
-    author_email="your.email@example.com",  # Your email
+    version="1.1.0",
+    author="CMU  MultiComp Lab", 
     description="CMU-Multimodal SDK provides tools to easily load well-known"
     "multimodal datasets and rapidly build neural multimodal deep models.",  # A short description
     long_description=open(
