@@ -66,7 +66,7 @@ A dataset is defined as a dictionary of multiple computational sequences. Entire
 The first step is to download the SDK:
 
 ```bash
-git clone git@github.com:A2Zadeh/CMU-MultimodalSDK.git
+git clone https://github.com/Deaf-Sense/CMU-MultimodalSDK.git
 ```
 
 Next, you need to install the SDK on your python enviroment.
